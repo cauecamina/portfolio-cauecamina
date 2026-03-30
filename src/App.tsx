@@ -40,7 +40,7 @@ const projects = [
     description: "Um sistema ERP Web, para controle de estoque, vendas e financeiro.",
     image: "https://lh3.googleusercontent.com/d/11TtlS8I0gxQI7xdlx-y5DrbAPGqzZxpQ",
     tags: ["ERP", "Node.js", "Typescript", "React", "PostgreSQL"],
-    link: "https://erp-pi-mocha.vercel.app/login"
+    link: "https://erp-pi-mocha.vercel.app"
   },
   {
     title: "Monitoramento de Filas Kafka",
@@ -113,7 +113,7 @@ export default function App() {
               className="text-left"
             >
               <span className="inline-block py-1 px-3 rounded-full border border-white/10 bg-white/5 text-[10px] uppercase tracking-[0.3em] mb-6">
-                Backend Developer | Início de Carreira
+                Backend Developer
               </span>
               <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-bold tracking-tighter leading-[0.9] mb-8 text-gradient">
                 MIGRAÇÕES <br /> COMPLEXAS & <br /> BACK-END.
