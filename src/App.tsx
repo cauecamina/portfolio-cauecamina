@@ -36,10 +36,10 @@ const projects = [
     link: "https://landing-page-controle-financeiro.vercel.app/"
   },
   {
-    title: "Integração ERP Omie",
-    description: "Projetos personalizados e onboarding para otimização de processos empresariais.",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
-    tags: ["ERP", "SQL", "Python"],
+    title: "CaueERP",
+    description: "Um sistema ERP Web, para controle de estoque, vendas e financeiro.",
+    image: "https://lh3.googleusercontent.com/d/11TtlS8I0gxQI7xdlx-y5DrbAPGqzZxpQ",
+    tags: ["ERP", "Node.js", "Typescript", "React", "PostgreSQL"],
     link: "#"
   },
   {
