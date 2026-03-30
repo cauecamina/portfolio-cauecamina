@@ -4,17 +4,17 @@
  */
 
 import { motion, useScroll, useTransform } from "motion/react";
-import { 
-  Github, 
-  Linkedin, 
-  Mail, 
-  Phone, 
-  ExternalLink, 
-  Code2, 
-  Database, 
-  Server, 
-  Cpu, 
-  Layers, 
+import {
+  Github,
+  Linkedin,
+  Mail,
+  Phone,
+  ExternalLink,
+  Code2,
+  Database,
+  Server,
+  Cpu,
+  Layers,
   ChevronRight,
   ArrowRight
 } from "lucide-react";
@@ -26,7 +26,7 @@ const projects = [
     description: "Desenvolvimento de plataforma web para gestão e agendamento de serviços automotivos, com foco em performance e experiência do usuário.",
     image: "https://lh3.googleusercontent.com/d/1zoywvgqiAg5bHjikLF_bLWwJ5_ipwVf6",
     tags: ["React", "TypeScript", "Node.js"],
-    link: "https://rs-automotive-site-sqs9.vercel.app/"
+    link: "https://rs-automotive.vercel.app/"
   },
   {
     title: "API de Autenticação Segura",
@@ -72,14 +72,14 @@ export default function App() {
       {/* Header */}
       <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${isScrolled ? "py-4 glass" : "py-8 bg-transparent"}`}>
         <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             className="text-2xl font-display font-bold tracking-tighter"
           >
             CAUÊ<span className="text-white/40">CAMIÑA</span>
           </motion.div>
-          
+
           <div className="hidden md:flex items-center gap-8 text-sm font-medium uppercase tracking-widest text-white/70">
             <a href="#about" className="hover:text-white transition-colors">Sobre</a>
             <a href="#projects" className="hover:text-white transition-colors">Projetos</a>
@@ -91,14 +91,14 @@ export default function App() {
 
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
-        <motion.div 
+        <motion.div
           style={{ opacity, scale }}
           className="absolute inset-0 z-0"
         >
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#050505]/50 to-[#050505] z-10" />
-          <img 
-            src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&q=80&w=2000" 
-            alt="Background" 
+          <img
+            src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&q=80&w=2000"
+            alt="Background"
             className="w-full h-full object-cover opacity-30"
             referrerPolicy="no-referrer"
           />
@@ -119,7 +119,7 @@ export default function App() {
                 MIGRAÇÕES <br /> COMPLEXAS & <br /> BACK-END.
               </h1>
               <p className="text-lg md:text-xl text-white/60 max-w-xl mb-10 font-light leading-relaxed">
-                Desenvolvedor focado em soluções robustas com <span className="text-white">Node.js, TypeScript e Python</span>. 
+                Desenvolvedor focado em soluções robustas com <span className="text-white">Node.js, TypeScript e Python</span>.
                 Especialista em processos de ETL e migração de registros.
               </p>
               <div className="flex flex-col sm:flex-row items-start gap-4">
@@ -144,9 +144,9 @@ export default function App() {
                 <div className="absolute -inset-4 border border-white/10 rounded-2xl -rotate-3" />
                 <div className="absolute -inset-4 border border-white/10 rounded-2xl rotate-3" />
                 <div className="relative w-full h-full overflow-hidden rounded-2xl glass">
-                  <img 
-                    src="https://lh3.googleusercontent.com/d/1Om-PrdERJUk11NaEBUGvhU3BiCaPayPK" 
-                    alt="Cauê Camiña" 
+                  <img
+                    src="https://lh3.googleusercontent.com/d/1Om-PrdERJUk11NaEBUGvhU3BiCaPayPK"
+                    alt="Cauê Camiña"
                     className="w-full h-full object-cover transition-all duration-700"
                     referrerPolicy="no-referrer"
                   />
@@ -159,7 +159,7 @@ export default function App() {
           </div>
         </div>
 
-        <motion.div 
+        <motion.div
           animate={{ y: [0, 10, 0] }}
           transition={{ duration: 2, repeat: Infinity }}
           className="absolute bottom-10 left-1/2 -translate-x-1/2 text-white/20"
@@ -187,7 +187,7 @@ export default function App() {
       <section id="about" className="py-32 max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* Main Bio */}
-          <motion.div 
+          <motion.div
             whileInView={{ opacity: 1, y: 0 }}
             initial={{ opacity: 0, y: 20 }}
             viewport={{ once: true }}
@@ -196,7 +196,7 @@ export default function App() {
             <div>
               <h2 className="text-3xl font-display font-bold mb-6">Sobre Mim</h2>
               <p className="text-white/60 leading-relaxed text-lg mb-6">
-                Desenvolvedor focado em soluções robustas com <span className="text-white">Node.js, TypeScript e Python</span>. 
+                Desenvolvedor focado em soluções robustas com <span className="text-white">Node.js, TypeScript e Python</span>.
                 Especialista em processos de ETL e migração de registros.
               </p>
             </div>
@@ -217,7 +217,7 @@ export default function App() {
           </motion.div>
 
           {/* Contact Card */}
-          <motion.div 
+          <motion.div
             whileInView={{ opacity: 1, y: 0 }}
             initial={{ opacity: 0, y: 20 }}
             viewport={{ once: true }}
@@ -256,7 +256,7 @@ export default function App() {
           </motion.div>
 
           {/* Skills Grid */}
-          <motion.div 
+          <motion.div
             whileInView={{ opacity: 1, y: 0 }}
             initial={{ opacity: 0, y: 20 }}
             viewport={{ once: true }}
@@ -276,7 +276,7 @@ export default function App() {
           </motion.div>
 
           {/* Experience Item 1 */}
-          <motion.div 
+          <motion.div
             whileInView={{ opacity: 1, y: 0 }}
             initial={{ opacity: 0, y: 20 }}
             viewport={{ once: true }}
@@ -292,7 +292,7 @@ export default function App() {
           </motion.div>
 
           {/* Experience Item 2 */}
-          <motion.div 
+          <motion.div
             whileInView={{ opacity: 1, y: 0 }}
             initial={{ opacity: 0, y: 20 }}
             viewport={{ once: true }}
@@ -341,9 +341,9 @@ export default function App() {
                 className="group relative block"
               >
                 <div className="relative aspect-[16/10] overflow-hidden rounded-3xl mb-6">
-                  <img 
-                    src={project.image} 
-                    alt={project.title} 
+                  <img
+                    src={project.image}
+                    alt={project.title}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                     referrerPolicy="no-referrer"
                   />
@@ -379,11 +379,11 @@ export default function App() {
           >
             <h2 className="text-4xl md:text-6xl font-display font-bold tracking-tighter mb-8">VAMOS CRIAR ALGO <br /> INCRÍVEL JUNTOS?</h2>
             <p className="text-white/60 text-lg mb-12 max-w-xl mx-auto">
-              Estou sempre aberto a novos desafios e oportunidades de aprendizado. 
+              Estou sempre aberto a novos desafios e oportunidades de aprendizado.
               Se você procura um desenvolvedor proativo e focado em resultados, vamos conversar.
             </p>
-            <a 
-              href="mailto:cauecamina@hotmail.com" 
+            <a
+              href="mailto:cauecamina@hotmail.com"
               className="inline-flex items-center gap-3 px-10 py-5 bg-white text-black rounded-full font-bold text-lg hover:scale-105 transition-transform"
             >
               Me mande um e-mail <Mail className="w-5 h-5" />
