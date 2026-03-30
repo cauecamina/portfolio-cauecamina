@@ -40,7 +40,7 @@ const projects = [
     description: "Um sistema ERP Web, para controle de estoque, vendas e financeiro.",
     image: "https://lh3.googleusercontent.com/d/11TtlS8I0gxQI7xdlx-y5DrbAPGqzZxpQ",
     tags: ["ERP", "Node.js", "Typescript", "React", "PostgreSQL"],
-    link: "#"
+    link: "https://erp-pi-mocha.vercel.app/login"
   },
   {
     title: "Monitoramento de Filas Kafka",
