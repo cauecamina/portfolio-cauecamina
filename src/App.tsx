@@ -33,7 +33,7 @@ const projects = [
     description: "Site de vendas de uma planilha pra auto controle financeiro.",
     image: "https://lh3.googleusercontent.com/d/1HVw9V5oUI1mDZyf5j-oarlBkKmUg70jL",
     tags: ["HTML", "CSS", "JavaScript"],
-    link: "https://planilha-controle-financeiro.vercel.app/"
+    link: "https://landing-page-controle-financeiro.vercel.app/"
   },
   {
     title: "Integração ERP Omie",
