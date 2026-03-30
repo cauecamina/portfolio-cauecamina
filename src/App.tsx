@@ -25,15 +25,15 @@ const projects = [
     title: "RS Automotive",
     description: "Desenvolvimento de plataforma web para gestão e agendamento de serviços automotivos, com foco em performance e experiência do usuário.",
     image: "https://lh3.googleusercontent.com/d/1zoywvgqiAg5bHjikLF_bLWwJ5_ipwVf6",
-    tags: ["React", "TypeScript", "Node.js"],
+    tags: ["HTML", "CSS", "JavaScript"],
     link: "https://rs-automotive.vercel.app/"
   },
   {
-    title: "API de Autenticação Segura",
-    description: "Desenvolvimento de sistema de autenticação com criptografia e testes integrados.",
-    image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=800",
-    tags: ["Node.js", "Security", "JWT"],
-    link: "#"
+    title: "Planilha controle financeiro",
+    description: "Site de vendas de uma planilha pra auto controle financeiro.",
+    image: "https://lh3.googleusercontent.com/d/1HVw9V5oUI1mDZyf5j-oarlBkKmUg70jL",
+    tags: ["HTML", "CSS", "JavaScript"],
+    link: "https://planilha-controle-financeiro.vercel.app/"
   },
   {
     title: "Integração ERP Omie",
